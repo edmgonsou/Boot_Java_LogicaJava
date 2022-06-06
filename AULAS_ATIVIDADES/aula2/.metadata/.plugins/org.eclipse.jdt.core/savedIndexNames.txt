@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\TI ACADEMY\JAVA\Logica_Java\AULAS_ATIVIDADES\aula2\.metadata\.plugins\org.eclipse.jdt.core
+2296325567.index
+2726785889.index
+1865797976.index
