@@ -1,0 +1,28 @@
+package repeticao;
+
+import java.util.Scanner;
+
+public class MediaAlunosFor {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double total = 0;
+		int contador;
+		
+		for(contador = 0; contador <= 9; contador++) {
+			System.out.printf("\nDigite a %dª nota: ", contador+1);
+			double nota = sc.nextDouble();
+			total += nota;			
+		}
+		double media = total / contador;
+		
+		System.out.printf("\nTotal de alunos da classe é %d.", contador);
+		System.out.printf("\nTotal de notas dos alunos é %.1f.", total);
+		System.out.printf("\nMédia da classe é %.1f.", media);
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,34 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double base = 0, altura= 0, resultado;
+		
+		System.out.println("CALCULAR ÁREA DE UM TRIÂNGULO");
+		System.out.println("\n\nDigite a base do triângulo: ");
+		base = sc.nextDouble();
+		System.out.println("Digite a altura do triângulo: ");
+		altura = sc.nextDouble();
+		
+		while(base <= 0 && altura <= 0) {
+				System.out.println("Digite para base um valor maior que ZERO: ");
+				base = sc.nextDouble();				
+			
+				System.out.println("Digite para altura um valor maior que ZERO:  ");
+				altura = sc.nextDouble();
+						
+		}
+		resultado = base * altura;
+		System.out.printf("\nBase do triângulo: %.1f\nAltura do triângulo: %.1f"
+				+ "\nA área total do triângulo: %.1f", base, altura, resultado);
+		sc.close();
+
+	}
+
+}
